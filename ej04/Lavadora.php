@@ -1,5 +1,5 @@
 <?php
-require_once 'ej04/Electrodomestico.php';
+require_once 'Electrodomestico.php';
 class Lavadora extends Electrodomestico
 {
     const CARGA_DEF = 5;
@@ -32,10 +32,10 @@ class Lavadora extends Electrodomestico
 
     public function precioFinal()
     {
-        $aumento=0;
-        if($this->carga>30){
-            $aumento+= 30;
+        $aumento = 0;
+        if ($this->carga > 30) {
+            $aumento += 30;
         }
-        return (parent::precioFinal()+$aumento);
+        return (parent::precioFinal() + $aumento);
     }
 }
