@@ -1,0 +1,10 @@
+cmd: ctrl+shift+p 
+//abre panel de comandos
+cmd: alt+shit+flecha abajo 
+// seleccion + alt //muevo el codigo
+cmd: ctrl+d 
+//selecciona, texto igual
+cmd: ctrl+k , ctrl+c (coment)
+//comenta codigo seleccionado
+cmd: ctrl+k , ctrl+u(uncoment)
+//comenta codigo seleccionado
