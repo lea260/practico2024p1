@@ -6,10 +6,10 @@ class Electrodomestico
     private $consumoEnergetico;
     private $peso;
 
-    private  const COLOR_DEF = "Blanco";
-    private  const CONSUMO_DEF = "F";
-    private  const PRECIO_DEF = 100;
-    private  const PESO_DEF = 5;
+    const COLOR_DEF = "Blanco";
+    const CONSUMO_DEF = "F";
+    const PRECIO_DEF = 100;
+    const PESO_DEF = 5;
     private static $colores = [
         "Blanco",
         "Negro",
