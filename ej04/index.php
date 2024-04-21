@@ -1,6 +1,6 @@
 <?php
 require_once 'Lavadora.php';
-require_once 'Television';
+require_once 'Television.php';
 $lista[] = new Lavadora(1000, 50, "Negro", 'C', 50);
 $lista[] = new Television(1000, 50, "Negro", 'A', 50, true);
 $lista[] = new Lavadora(1000, 50, "Azul", 'B', 50);
