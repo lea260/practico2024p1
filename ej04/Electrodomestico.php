@@ -90,11 +90,11 @@ class Electrodomestico
                 break;
         }
 
-        if ($this->peso < 19) {
+        if ($this->peso <= 19) {
             $aumento += 10;
-        } elseif ($this->peso < 49) {
+        } elseif ($this->peso <= 49) {
             $aumento += 50;
-        } elseif ($this->peso < 79) {
+        } elseif ($this->peso <= 79) {
             $aumento += 80;
         } else {
             $aumento += 100;
